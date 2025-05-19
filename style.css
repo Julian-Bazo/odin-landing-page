@@ -45,7 +45,7 @@ body {
     background-color: #1F2937;
     width: 100%;
     padding-bottom: 50px;
-    gap: 12px;
+    gap: 20px;
 }
 
 .intro-left {
@@ -57,7 +57,7 @@ body {
 
 
 .intro-img {
-    max-width: 260px;
+    max-width: 300px;
 }
 
 .gallery {
@@ -103,6 +103,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     /* align-items: center; */
     padding: 50px 50px;
     gap: 5px;
@@ -111,13 +112,16 @@ body {
 .quote {
     font-style: italic;
     font-size: 20px;
+    max-width: 500px;
+    flex-shrink: 0;
 }
 
 .quote-source {
-    text-align: right;
+    padding-left: 275px;
     color: black;
     font-weight: 700;
     font-size: 15px;
+    align-self: center;
 }
 
 .sign-bubble {
@@ -152,6 +156,21 @@ body {
     border-style: solid;
     border-width: 1px;
     border-color: white;
+}
+
+.footer {
+    width: 100%;
+    background-color: #1F2937;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color:#F9FAF8;
+    font-size: smaller;
 }
 
 ul {
