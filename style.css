@@ -51,12 +51,50 @@ body {
     display: flex;
     flex-direction: column;
     flex-basis: 300px;
+    gap: 6px;
 }
 
 
 .intro-img {
     max-width: 260px;
+}
 
+.gallery {
+    width: 100%;
+    padding-bottom: 75px;
+    /* display: flex;
+    flex-direction: column;
+     */
+}
+
+.gallery-text {
+    text-align: center;
+    color:#1F2937;
+    font-weight: 900;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.gallery-img {
+    max-width: 150px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-width: 2px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #1F2937;
+    gap: 15px;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.gallery-caption {
+    max-width: 150px;
 }
 
 ul {
