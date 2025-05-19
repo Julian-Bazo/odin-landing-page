@@ -97,6 +97,29 @@ body {
     max-width: 150px;
 }
 
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 50px 50px;
+    gap: 5px;
+    flex-shrink: 0;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.quote-source {
+    text-align: right;
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+}
+
 ul {
     list-style: none;
     padding: 0;
